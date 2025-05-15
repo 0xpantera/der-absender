@@ -1,6 +1,5 @@
 import { ConnectButton } from "@rainbow-me/rainbowkit";
 import { FaGithub } from "react-icons/fa";
-import Image from "next/image";
 
 /**
  * Header component
@@ -17,7 +16,7 @@ export default function Header() {
       <div className="flex items-center space-x-3">
         <h1 className="text-2xl font-semibold tracking-wide">Absender</h1>
         <a
-          href="https://github.com/yourusername/yourrepo" // ← replace with actual repo
+          href="https://github.com/0xpantera/der-absender" // ← replace with actual repo
           target="_blank"
           rel="noopener noreferrer"
           aria-label="GitHub Repository"
