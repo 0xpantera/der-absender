@@ -1,11 +1,11 @@
 "use client";
 
 import { getDefaultConfig } from "@rainbow-me/rainbowkit";
-import { anvil, mainnet } from "wagmi/chains";
+import { anvil, mainnet, sepolia } from "wagmi/chains";
 
 export default getDefaultConfig({
   appName: "DerAbsender",
   projectId: process.env.NEXT_PUBLIC_WALLETCONNECT_PROJECT_ID!,
-  chains: [anvil, mainnet],
+  chains: [anvil, mainnet, sepolia],
   ssr: false,
 });
